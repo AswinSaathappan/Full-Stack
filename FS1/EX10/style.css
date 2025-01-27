@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    height: 500px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: pink;
+    padding: 0.1%
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background-color: gold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 150px;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
