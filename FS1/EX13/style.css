@@ -1,0 +1,21 @@
+
+div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+
+.hiddenvisibility {
+    visibility: hidden;
+}
+
+
+.displaynone {
+    display: none;
+}
+
+
+.opacity50 {
+    opacity: 0.5;
+}
