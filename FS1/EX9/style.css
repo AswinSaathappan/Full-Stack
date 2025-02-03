@@ -1,0 +1,19 @@
+.block {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 10px;
+}
