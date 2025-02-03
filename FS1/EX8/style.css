@@ -1,0 +1,18 @@
+.container {
+    overflow:hidden;
+    background-color: yellow;
+    padding: 10px;
+}
+.left {
+    float: left;
+    width: 45%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-right: 5%;
+}
+.right {
+    float: right;
+    width: 45%;
+    background-color: lightgreen;
+    padding: 10px;
+}
