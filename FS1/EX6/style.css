@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.card {
+    margin-top: 300px;
+    margin-left: 700px;
+    position:center;
+    background-color: white;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: (2px 2px 5px black); 
+}
+
+.card:hover {
+    box-shadow: 4px 4px 10px yellow; 
+}
