@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 1 - 3507</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "quiz">
+        <h2>JavaScript Quiz</h2>
+        <form id = "quizform">
+              
+            <div class = "question">
+                <!--Question 1-->
+                <div id = "q1">
+                <p>1. What is the correct way to declare a variable in JavaScript?</p>
+                <label><input type = "radio" name = "q1" value = "true">var x = 5;</label><br>
+                <label><input type="radio" name="q1" value = "false"> variable x = 5;</label><br>
+                 <label><input type="radio" name="q1" value ="false"> v x = 5;</label><br>
+                </div>
+                <!--Question 2-->
+                <div id = "q2">
+                 <p>2. Which of these are valid loop types in JavaScript? (Select all that apply)</p>
+                 <label><input type="checkbox" name="q2" value="true"> for loop</label><br>
+                 <label><input type="checkbox" name="q2" value="true"> while loop</label><br>
+                 <label><input type="checkbox" name="q2" value="false"> loop</label><br>
+                 <label><input type="checkbox" name="q2" value="false"> repeat loop</label><br>
+                 </div>
+                 <!--Question 3-->
+                 <div id = "Q3">
+                 <p>3. What will be the output of: <code>console.log("Hello" + " " + "World");</code></p>
+                 <input type="text" id="q3" placeholder="Type your answer"><br><br>
+                 </div>
+
+                 <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
