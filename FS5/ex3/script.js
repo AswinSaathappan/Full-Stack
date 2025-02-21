@@ -20,7 +20,7 @@ function analyze()
     if(char!==' ' && char!=='\t' && char!=='\n')
     {
         isword = true;
-        count_without_spaces;
+        count_without_spaces++;
     }
     else if(isword)
     {
