@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex-1 3507(WITH EJS)</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form action="/submit" method="post">
+      <label>Name:</label>
+      <input type="text" name="name" id="name" required /><br /><br />
+
+      <label>Email:</label>
+      <input type="email" name="email" id="email" required /><br /><br />
+
+      <label>Subject:</label>
+      <input type="text" name="subject" id="subject" required /><br /><br />
+
+      <label>Message:</label><br />
+      <textarea name="message" id="message" rows="4" required></textarea
+      ><br /><br />
+
+      <label>Preferred Contact Method:</label><br />
+      <input
+        type="radio"
+        id="email"
+        name="contactMethod"
+        value="Email"
+        required
+      />
+      <label for="email">Email</label><br />
+      <input type="radio" id="phone" name="contactMethod" value="Phone" />
+      <label for="phone">Phone</label><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
