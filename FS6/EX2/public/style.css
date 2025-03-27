@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+form {
+    background: white;
+    padding: 15px;
+    border: 1px solid gray;
+    width: 250px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
